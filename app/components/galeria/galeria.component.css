@@ -1,0 +1,35 @@
+.dimensoesCard, h1{
+    margin: 1rem;
+}
+
+h1{
+    color: brown;
+}
+
+h5{
+    font-size: small;
+}
+
+p{
+    font-size: x-small;
+}
+
+a{
+    font-size: x-small;
+}
+
+input{
+    border-radius: 0.375rem;
+    border: 1px solid #ced4da;
+    color: #212529;
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+select, input{
+    margin-left: 1rem;
+    width: 19%;
+    display: block;
+}

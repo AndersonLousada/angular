@@ -1,0 +1,10 @@
+.centralizarCarrossel {
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleIndicators{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 64vh;
+}

@@ -1,0 +1,29 @@
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+  </head>
+  <body>
+    <nav style="background-color: antiquewhite;">
+      <div class="container-fluid d-flex justify-content-between">
+        <a routerLink="/" class="navbar-brand margemHome" >Home</a>
+        <a routerLink="/Galeria" class="navbar-brand margemNavPrincipal" >Galeria</a>
+        <div class="container d-flex flex-column flex-md-row justify-content-center">
+          <h5 class="py-2 titulo">Jack Pires</h5>
+        </div>
+        <a routerLink="/Login" class="navbar-brand margemNavPrincipal" >Administração</a>
+      </div>
+    </nav>
+
+    <router-outlet></router-outlet>
+   
+    <footer style="background-color: antiquewhite;" class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">Siga nossas redes sociais</span>
+        <a target="https://www.instagram.com/lojada.jack/" href="https://www.instagram.com/lojada.jack/" class="bi bi-instagram iconesFooter" style="color: brown;" ></a>
+        <a class="bi bi-facebook iconesFooter"></a>
+        <a class="bi bi-whatsapp iconesFooter" style="color: green;" ></a>  
+      </div>
+    </footer>
+  </body>
+</html>
