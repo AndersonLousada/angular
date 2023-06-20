@@ -3,8 +3,13 @@
     justify-content: center;
 }
 
-#carouselExampleIndicators{
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    width: 64vh;
+.centered {
+    margin: 0 auto !important;
+    max-width: 64vh;
 }
+
+/* #carouselExampleIndicators{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    max-width: 64vh;
+} */

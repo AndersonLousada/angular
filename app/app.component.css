@@ -4,17 +4,9 @@
     margin-bottom: 1em;
 }
 
-body{
-    background-color:rgb(255, 249, 237);
-}
-
 .margemHome{
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.iconesFooter{
-    margin-left: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .titulo{
