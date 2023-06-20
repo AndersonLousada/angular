@@ -4,8 +4,8 @@
   <head>
   </head>
   <body>
-    <nav style="background-color: antiquewhite;">
-      <div class="container-fluid d-flex justify-content-between">
+    <nav style="background-color: antiquewhite;" class="padding-centralizado">
+      <div class="d-flex justify-content-between">
         <a routerLink="/" class="navbar-brand margemHome" style="color: brown;">Home</a>
         <a routerLink="/Galeria" class="navbar-brand margemNavPrincipal" style="color: brown;">Galeria</a>
         <div class="container d-flex flex-column flex-md-row justify-content-center">
@@ -15,10 +15,12 @@
       </div>
     </nav>
 
-    <router-outlet></router-outlet>
+    <div class="padding-centralizado">
+      <router-outlet></router-outlet>
+    </div>
    
-    <footer style="background-color: antiquewhite;" class="fixed-bottom py-3">
-      <div style="margin-left: 1rem">
+    <footer style="background-color: antiquewhite;" class="fixed-bottom py-3 padding-centralizado">
+      <div class="text-center">
         <span class="text-muted">Siga nossas redes sociais</span>
         <a target="https://www.instagram.com/lojada.jack/" href="https://www.instagram.com/lojada.jack/" class="bi bi-instagram" style="color: brown; margin-left: 1rem" ></a>
         <a class="bi bi-facebook" style="margin-left: 1rem"></a>

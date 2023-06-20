@@ -2,3 +2,8 @@
 body{
     background-color:rgb(255, 249, 237);
 }
+
+.padding-centralizado{
+    padding-left: 20px;
+    padding-right: 20px;
+}

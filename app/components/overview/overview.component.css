@@ -1,15 +1,4 @@
-.centralizarCarrossel {
-    display: flex;
-    justify-content: center;
-}
-
 .centered {
     margin: 0 auto !important;
     max-width: 64vh;
 }
-
-/* #carouselExampleIndicators{
-    margin-top: 15%;
-    margin-bottom: 15%;
-    max-width: 64vh;
-} */
